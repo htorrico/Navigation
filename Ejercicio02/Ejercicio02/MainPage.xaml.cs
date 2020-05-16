@@ -14,12 +14,7 @@ namespace Ejercicio02
 		{
 			InitializeComponent();
 
-       
-
-
-
-
-
+      
             Item1.Clicked += async (sender, e) =>
             {
                 await Navigation.PushAsync(new Page1());                
@@ -37,6 +32,11 @@ namespace Ejercicio02
             Item7.Clicked += async (sender, e) =>
             {
                 await Navigation.PushAsync(new CarouselPageCode());
+
+            };
+            Item8.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new CarouselSinPlantilla());
 
             };
             Item4.Clicked += async (sender, e) =>
@@ -58,6 +58,8 @@ namespace Ejercicio02
                 Debug.WriteLine("Answer: " + answer);
 
             };
+
+           
         }
 
         private void BtnEjemplo_Clicked(object sender, EventArgs e)
@@ -65,5 +67,7 @@ namespace Ejercicio02
              Navigation.PushAsync(new CarouselPage1());
 
         }
+
+        
     }
 }

@@ -12,7 +12,7 @@ namespace Ejercicio02
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class NavigationPage : ContentPage
 	{
-		public NavigationPage ()
+		public NavigationPage (MainPage mainPage)
 		{
 			InitializeComponent ();
 		}

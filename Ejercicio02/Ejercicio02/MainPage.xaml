@@ -9,6 +9,7 @@
         <Button x:Name="Item2" Text="TabbedPage1"/>
         <Button x:Name="Item3" Text="CarouselPage"/>
         <Button x:Name="Item7" Text="CarouselPageCode"/>
+        <Button x:Name="Item8" Text="CarouselPageSinPlantilla Test"/>
         <Button x:Name="Item4" Text="MasterDetailPage"/>
         <Button x:Name="Item5" Text="ModalPages"/>
         <Button x:Name="Item6" Text="DisplayAlert"/>
