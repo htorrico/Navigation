@@ -11,17 +11,20 @@ namespace Ejercicio02
 		{
 			InitializeComponent();
 
-           //MainPage = new MainPage();
+            //MainPage = new MainPage();
             //MainPage = new TabbedPage1();
 
-            //MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new MainPage());
             //MainPage = new MasterDetailPage1();
             //MainPage = new CarouselPage1();
             //MainPage = new TabbedPage1();
-            MainPage = new NavigationPage(new MainPage());
+            //MainPage = new NavigationPage(new MainPage());
+            //MainPage = new TabbedPageExample();
+            //MainPage = new CarouselExamplexaml();
+
         }
 
-        protected override void OnStart ()
+		protected override void OnStart ()
 		{
 			// Handle when your app starts
 		}
