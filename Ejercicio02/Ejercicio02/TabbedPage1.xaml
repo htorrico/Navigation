@@ -8,7 +8,11 @@
             <Button Text="Close" x:Name="btnClose"/>
         </StackLayout>
     </ContentPage>
-    <ContentPage Title="Tab 2" />
+    <ContentPage Title="Tab 2" >
+        <StackLayout>
+            <Label Text="El segundo tab"/>
+        </StackLayout>
+    </ContentPage>
     <ContentPage Title="Tab 3" />
 </TabbedPage>
 
